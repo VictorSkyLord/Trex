@@ -110,8 +110,8 @@ function draw(){
     
      //faz o solo regredir para dar a ideia de movimento do jogo
      chao.velocityX = -(5+3* pontuacao/100);
-    grupoDeObstaculos.setVelocityXEach(-(5 + 3* pontuacao/100));
-    grupoDeNuvens.setVelocityXEach(-(5 + 3* pontuacao/100));
+    grupoDeObstaculos.setVelocityXEach(-(7 + 3* pontuacao/100));
+    grupoDeNuvens.setVelocityXEach(-(2 + 3* pontuacao/100));
     //atualizando a pontuação
     pontuacao = pontuacao + Math.round(frameRate()/60); 
     
